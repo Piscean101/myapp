@@ -1,0 +1,46 @@
+body { 
+    display: flex;
+    justify-content: center;
+    background-color: rgb(100, 100, 172);
+}
+body header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 100px;
+    background-color: rgb(12, 0, 116);
+    width: 100%;
+}
+header * {
+    display: inline-flex;
+}
+header h2 {
+    padding-left: 10%;
+}
+.nav_bar * {
+    position: relative;
+    right: 10px;
+    margin: 5px;
+}
+#midbody {
+    border: 3px solid red;
+    height: 110vh;
+    width: 90%;
+    border-top: none;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#lowbody {
+    position: fixed;
+    bottom: 2%;
+    background-color: rgb(164, 164, 164);
+    border: grey 2px solid;
+    width: 90%;
+}
+h2, h3, h4 {
+    text-align: center;
+}
